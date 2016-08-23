@@ -26,8 +26,6 @@ ga(function(tracker) {
     if (paramsJSON.ea === "title") {
         var track = new Image();
         track.src="//pixel.mathtag.com/event/js?mt_id=1059155&mt_adid=127439&v1=&v2=&v3=" + paramsJSON.ea + "&s1=&s2=&s3=" + paramsJSON.ec;
-        parent = document.getElementsByTagName("script")[0];
-        parent.appendChild(track);
         console.log(track.src);
     }
   });
